@@ -1,4 +1,7 @@
 export const SITE_URL = 'https://noviqsearch.online';
+export const APP_URL = 'https://app.noviqsearch.online';
+export const FREE_TRIAL_CREDITS = 2700;
+export const FREE_TRIAL_CREDITS_LABEL = '2.700';
 export const WHATSAPP_URL = 'https://wa.me/5551995501677';
 export const WHATSAPP_PHONE = '(51) 99550-1677';
 export const API_DOCS_URL = 'https://api.noviqsearch.online/docs';
@@ -60,20 +63,20 @@ export const DIFFERENTIALS = [
 
 export const FAQ_ITEMS = [
   {
-    q: 'Como faço para contratar?',
-    a: 'Chame no WhatsApp (51) 99550-1677, escolha seu pacote de créditos e receba sua API Key em minutos.',
+    q: 'Como faço para começar?',
+    a: 'Clique em "Testar grátis", crie sua conta em app.noviqsearch.online e receba 2.700 créditos de teste na hora.',
   },
   {
     q: 'Quanto custa?',
-    a: 'R$ 5 por 500 créditos (≈ R$ 0,01 por busca web simples). Sem mensalidade, sem validade.',
+    a: 'Plano mensal de 70.000 créditos por R$ 197/mês, ou créditos avulsos a partir de R$ 5 por 500 (≈ R$ 0,01 por busca web simples).',
   },
   {
     q: 'Preciso de cartão de crédito?',
-    a: 'Não. Pagamento via Pix ou transferência, direto pelo WhatsApp.',
+    a: 'Para o teste grátis, não. Para planos pagos, aceitamos cartão e Pix pelo painel.',
   },
   {
     q: 'Tem trial ou créditos grátis?',
-    a: 'Sim! Comece com 2.500 créditos de teste gratuitos ao contratar.',
+    a: 'Sim! 2.700 créditos de teste gratuitos ao criar sua conta — sem cartão.',
   },
   {
     q: 'Consigo substituir o Serper.dev?',

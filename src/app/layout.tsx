@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'SERP API self-hosted, alternativa ao Serper.dev. Endpoints compatíveis, fallbacks inteligentes e preço acessível para devs, agências, automações e IA.',
   openGraph: {
     title: 'NoviqSearch — API de busca Google em reais',
-    description: 'Comece grátis com 2.500 créditos de teste. 10x mais barato que Serper.',
+    description: 'Comece grátis com 2.700 créditos de teste. Plano mensal de 70k créditos por R$ 197.',
     url: SITE_URL,
     siteName: 'NoviqSearch',
   },

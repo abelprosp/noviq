@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { FAQ_ITEMS, WHATSAPP_URL } from '@/lib/constants';
+import { APP_URL, FAQ_ITEMS, FREE_TRIAL_CREDITS_LABEL, WHATSAPP_URL } from '@/lib/constants';
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -20,8 +20,16 @@ export default function FAQ() {
             <p className="mt-4 text-sm text-gray-500">
               Não encontrou sua resposta? Fale conosco.
             </p>
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary mt-6">
-              Falar no WhatsApp
+            <a href={APP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary mt-6">
+              Testar grátis — {FREE_TRIAL_CREDITS_LABEL} créditos
+            </a>
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary mt-3"
+            >
+              Suporte via WhatsApp
             </a>
           </div>
 

@@ -1,4 +1,4 @@
-import { API_DOCS_URL, NAV_LINKS, WHATSAPP_URL } from '@/lib/constants';
+import { API_DOCS_URL, APP_URL, FREE_TRIAL_CREDITS_LABEL, NAV_LINKS } from '@/lib/constants';
 import Logo from '@/components/Logo';
 
 export default function Header() {
@@ -30,8 +30,13 @@ export default function Header() {
           >
             Docs
           </a>
-          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary !rounded-xl !px-4 !py-2 text-[13px]">
-            Contratar
+          <a
+            href={APP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary !rounded-xl !px-4 !py-2 text-[13px]"
+          >
+            Testar grátis
           </a>
         </div>
       </div>

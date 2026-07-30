@@ -1,4 +1,4 @@
-import { API_DOCS_URL, API_SEARCH_URL, WHATSAPP_URL } from '@/lib/constants';
+import { API_DOCS_URL, API_SEARCH_URL, APP_URL, FREE_TRIAL_CREDITS_LABEL } from '@/lib/constants';
 
 const FLOATING_CARDS = [
   {
@@ -45,7 +45,7 @@ export default function Hero() {
         <div className="relative text-center">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-gray-900 px-4 py-1.5 text-xs font-medium text-white">
             <span className="rounded bg-violet-500 px-1.5 py-0.5 text-[10px] font-bold">GRÁTIS</span>
-            2.500 créditos de teste
+            {FREE_TRIAL_CREDITS_LABEL} créditos de teste
           </div>
 
           <h1 className="mx-auto max-w-3xl text-4xl font-bold leading-[1.08] tracking-tight md:text-5xl lg:text-[3.5rem]">
@@ -60,8 +60,8 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Contratar — via WhatsApp
+            <a href={APP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Testar grátis — {FREE_TRIAL_CREDITS_LABEL} créditos
             </a>
             <a href={API_DOCS_URL} target="_blank" rel="noopener noreferrer" className="btn-secondary">
               Ver documentação

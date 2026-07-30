@@ -1,4 +1,4 @@
-import { WHATSAPP_URL } from '@/lib/constants';
+import { APP_URL } from '@/lib/constants';
 
 const COMPARISONS = [
   { before: 'APIs caras em dólar', after: 'R$ 5 / 500 créditos' },
@@ -55,10 +55,10 @@ export default function FeaturesBento() {
             </div>
             <h3 className="text-lg font-semibold">3 passos até produção</h3>
             <p className="mt-2 text-sm text-gray-500">
-              WhatsApp → API Key → primeira busca. Compatível com Serper.dev.
+              Cadastro → API Key → primeira busca. Compatível com Serper.dev.
             </p>
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex rounded-xl bg-violet-500 px-4 py-2 text-xs font-medium text-white hover:bg-violet-600">
-              Começar agora
+            <a href={APP_URL} target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex rounded-xl bg-violet-500 px-4 py-2 text-xs font-medium text-white hover:bg-violet-600">
+              Testar grátis
             </a>
           </div>
 
